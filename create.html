@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Create Shipment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Create Shipment</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="track.html">Track Shipment</a>
+    </nav>
+  </header>
+  <main>
+    <form id="shipmentForm">
+      <label>Sender Name: <input type="text" id="sender" required /></label>
+      <label>Recipient Name: <input type="text" id="recipient" required /></label>
+      <label>Destination Country: <input type="text" id="country" required /></label>
+      <label>Package Description: <input type="text" id="description" required /></label>
+      <button type="submit">Generate Tracking ID</button>
+    </form>
+    <div id="result"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
