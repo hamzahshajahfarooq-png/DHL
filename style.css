@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+header {
+  background: #ffcc00;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+label {
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px;
+  background: #ff9900;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#result, #trackingResult {
+  margin-top: 20px;
+  text-align: center;
+}
